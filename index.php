@@ -104,5 +104,3 @@ else
         $home->show();
     }
 }
-
-echo '<h1>'.@$_SESSION['nome'].'</h1>';
