@@ -45,7 +45,8 @@ class LoginController extends Controller
         header('Location: //localhost/agenda/');
     }
     
-    public function show() {        
+    public function show()
+    {        
         $this->view->assign('status', $this->teste);
         $this->view->assign('patternSenha', '{6,}');
         parent::show();

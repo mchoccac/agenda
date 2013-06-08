@@ -90,7 +90,7 @@ else
         else
         {
             // Instancia a Classe com os erros
-            $erro = new ErroController(404);
+            $erro = new ErroController();
             // Imprime na tela
             $erro->show();
         }
